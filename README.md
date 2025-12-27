@@ -12,3 +12,8 @@ Description of ego planner ros2 simulation in gazebo
 - QGroundControl
 
 - Gazebo Harmonic (Tips: use `sudo apt-get install ros-humble-ros-gzharmonic`. The command `sudo apt-get install gz-harmonic` may lead to problems of gz_bridge at following steps)
+
+## 1. PX4 Gazebo Simulation Setup
+
+### 1.1 PX4 Simulation File Location
+- copy `px4_sitl_ros2.launch.py` to `PX4-Autopilot/launch`
