@@ -16,4 +16,5 @@ Description of ego planner ros2 simulation in gazebo
 ## 1. PX4 Gazebo Simulation Setup
 
 ### 1.1 PX4 Simulation File Location
-- copy `px4_sitl_ros2.launch.py` to `PX4-Autopilot/launch`
+- copy `px4_sitl_ros2.launch.py` to your `PX4-Autopilot/launch`
+- aa
