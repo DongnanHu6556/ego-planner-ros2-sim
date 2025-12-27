@@ -38,4 +38,4 @@ cp ego.sdf ~/.simulation/worlds
 ```
 Then change `simulation-gazebo` file:
 
-In line 18 `parser.add_argument('--world', help='World to run in Gazebo', required=False, default="default")`, change the world name form "default" to "ego"
+In line 18 `parser.add_argument('--world', help='World to run in Gazebo', required=False, default="default")`, change the world name form `"default"` to `"ego"`
