@@ -31,3 +31,4 @@ cp px4_sitl_ros2.launch.py <your_px4_path>/PX4-Autopilot/launch
 mkdir -p ~/ros_proj/gazebo_start
 cp simulation-gazebo depth_gz_bridge.py ~/ros_proj/gazebo_start
 ```
+Then run `cd ~/ros_proj/gazebo_start && python3 simulation-gazebo` to build `.simulation` folder which contains `worlds` and `models`
