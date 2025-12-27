@@ -36,3 +36,6 @@ cd ~/ros_proj/gazebo_start && python3 simulation-gazebo
 cd ~/ego-planner-ros2-sim
 cp ego.sdf ~/.simulation/worlds
 ```
+Then change `simulation-gazebo` file:
+
+In line 18 `parser.add_argument('--world', help='World to run in Gazebo', required=False, default="default")`, change the world name form "default" to "ego"
