@@ -62,3 +62,5 @@ python3 mode_key.py
 
 <img width="1830" height="1042" alt="image" src="https://github.com/user-attachments/assets/84eef922-1eb4-4218-aa6b-85777ffe9e77" />
 
+## 3. Ego-Planner-ROS2
+Please follow this repository to compile and run the planner: https://github.com/DongnanHu6556/ego-swarm-ros2/tree/main
