@@ -46,3 +46,4 @@ In line 18 `parser.add_argument('--world', help='World to run in Gazebo', requir
 ros2 launch ./PX4-Autopilot/launch/px4_sitl_ros2.launch.py
 ```
 Then you can see the interface:
+<img width="1827" height="1039" alt="ego-sim-screenshot" src="https://github.com/user-attachments/assets/7c34ff3f-3833-4d82-8ea5-47a7cb982e16" />
