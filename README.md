@@ -39,3 +39,10 @@ cp ego.sdf ~/.simulation-gazebo/worlds
 Then change `simulation-gazebo` file:
 
 In line 18 `parser.add_argument('--world', help='World to run in Gazebo', required=False, default="default")`, change the world name form `"default"` to `"ego"`
+
+### 1.3 Launch PX4 Gazebo Simulation
+```
+# Please notice your launch path
+ros2 launch ./PX4-Autopilot/launch/px4_sitl_ros2.launch.py
+```
+Then you can see the interface:
