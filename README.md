@@ -56,7 +56,7 @@ ros2 run px4_ego_py offboard_control_test
 cd px4_ego
 python3 mode_key.py 
 ```
-You can input 't' in keyboard terminal to make the drone takeoff. When hovering at the desire height, inputting 'o' to switch the drone to Offboard mode. Then, the drone will start following the trajectory once it is published.
+You can input 't' in keyboard terminal to make the drone takeoff. When hovering at the desire height, inputting 'o' to switch the drone to Offboard mode. Then, the drone will start following the trajectory once it is published
  (see Part 3).
 
 <img width="1830" height="1042" alt="image" src="https://github.com/user-attachments/assets/84eef922-1eb4-4218-aa6b-85777ffe9e77" />
