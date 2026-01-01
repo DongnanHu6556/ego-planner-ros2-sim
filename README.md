@@ -47,3 +47,7 @@ ros2 launch ./PX4-Autopilot/launch/px4_sitl_ros2.launch.py
 ```
 Then you can see the interface:
 <img width="1827" height="1039" alt="ego-sim-screenshot" src="https://github.com/user-attachments/assets/7c34ff3f-3833-4d82-8ea5-47a7cb982e16" />
+
+## 2. PX4 Control Fsm
+This package is designed to send the Ego Planner’s trajectory to the PX4 low-level controller, while also providing state management. The topics are transmitted via the Micro XRCE Agent.
+Please follow this link to install the package: 
