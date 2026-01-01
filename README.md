@@ -50,4 +50,4 @@ Then you can see the interface:
 
 ## 2. PX4 Control Fsm
 This package is designed to send the Ego Planner’s trajectory to the PX4 low-level controller, while also providing state management. The topics are transmitted via the Micro XRCE Agent.
-Please follow this link to install the package: https://github.com/DongnanHu6556/px4_control_fsm
+Please follow this link to install the package: [https://github.com/DongnanHu6556/px4_control_fsm](https://github.com/DongnanHu6556/px4_ego/tree/main)
