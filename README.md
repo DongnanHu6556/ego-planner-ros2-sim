@@ -7,7 +7,7 @@ Description of ego planner ros2 simulation in gazebo
 
 - ROS2 Humble
 
-- PX4 Firmware (>= 1.14.0) [PX4-ROS2-Guide](https://docs.px4.io/main/zh/ros2/user_guide)
+- PX4 Firmware (>= 1.14.0,) and px4_msgs (please follow this guide: [PX4-ROS2-Guide](https://docs.px4.io/main/zh/ros2/user_guide))
 
 - QGroundControl
 
