@@ -56,7 +56,7 @@ ros2 run px4_ego_py offboard_control_test
 cd px4_ego
 python3 mode_key.py 
 ```
-- Firstly, you can input 't' in keyboard terminal to make the drone takeoff.
+- Firstly, input 't' in keyboard terminal to make the drone takeoff.
 - Secoundly, when hovering at the desire height, inputting 'o' to switch the drone to Offboard mode.
 - Then, the drone will start following the trajectory once it is published (see Part 3).
 
@@ -64,3 +64,9 @@ python3 mode_key.py
 
 ## 3. Ego-Planner-ROS2
 Please follow this repository to compile and run the planner: https://github.com/DongnanHu6556/ego-swarm-ros2/tree/main
+
+Before the autonomous flight, please make sure the drone is hovering and in offboard mode. Then you can use "2D Goal Pose" to publish the target.
+
+<img width="1831" height="958" alt="image" src="https://github.com/user-attachments/assets/ff61ae6c-3bfe-4e64-8892-5c4bb7227c41" />
+
+The simulation video: https://www.bilibili.com/video/BV1jkqBBfEaZ/?spm_id_from=333.1387.list.card_archive.click&vd_source=a64220b55ea13ec3a0ad1166c315e72f
