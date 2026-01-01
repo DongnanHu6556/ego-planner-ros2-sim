@@ -30,11 +30,11 @@ cp px4_sitl_ros2.launch.py <your_px4_path>/PX4-Autopilot/launch
 ```
 mkdir -p ~/ros_proj/gazebo_start
 cp simulation-gazebo depth_gz_bridge.py ~/ros_proj/gazebo_start
-# This command is used to download worlds and models in .simulation
+# This command is used to download worlds and models in .simulation-gazebo
 cd ~/ros_proj/gazebo_start && python3 simulation-gazebo
-# Then you can put your world and models in .simulation. Here I provide my world file ego.sdf
+# Then you can put your world and models in .simulation-gazebo. Here I provide my world file ego.sdf
 cd ~/ego-planner-ros2-sim
-cp ego.sdf ~/.simulation/worlds
+cp ego.sdf ~/.simulation-gazebo/worlds
 ```
 Then change `simulation-gazebo` file:
 
