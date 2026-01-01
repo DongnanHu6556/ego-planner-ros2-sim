@@ -58,3 +58,5 @@ python3 mode_key.py
 ```
 You can input 't' in keyboard terminal to make the drone takeoff
 
+<img width="1830" height="1042" alt="image" src="https://github.com/user-attachments/assets/84eef922-1eb4-4218-aa6b-85777ffe9e77" />
+
